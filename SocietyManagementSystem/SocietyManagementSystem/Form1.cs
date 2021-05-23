@@ -11,15 +11,16 @@ using System.Management;
 
 namespace SocietyManagementSystem {
     public partial class Form1 : Form {
-        public Form1() {
+        public Form1()
+        {
             InitializeComponent();
             complaintsForm1.Hide();
-            membersForm1.Hide();
+           membersForm1.Hide();
             dashboard1.Show();
             guna2ShadowForm1.SetShadowForm(this);
-            propertyForm1.Hide();
-        
+           propertyForm1.Hide();
 
+        }
         private void guna2Button5_Click(object sender, EventArgs e) {
             this.Dispose();
         }
@@ -35,7 +36,7 @@ namespace SocietyManagementSystem {
             complaintsForm1.Hide();
             membersForm1.Show();
             dashboard1.Hide();
-            propertyForm1.Hide();
+          propertyForm1.Hide();
         }
 
         private void gunaPanel1_Paint(object sender, PaintEventArgs e) {
@@ -46,12 +47,12 @@ namespace SocietyManagementSystem {
             complaintsForm1.Hide();
             membersForm1.Hide();
             dashboard1.Hide();
-            propertyForm1.Show();
+           propertyForm1.Show();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e) {
             complaintsForm1.Hide();
-            membersForm1.Hide();
+           membersForm1.Hide();
             dashboard1.Show();
             propertyForm1.Hide();
         }
@@ -59,13 +60,18 @@ namespace SocietyManagementSystem {
         private void guna2Button6_Click(object sender, EventArgs e)
         {
             complaintsForm1.Show();
-            membersForm1.Hide();
+          membersForm1.Hide();
             dashboard1.Hide();
         }
 
         private void complaintsForm1_Load(object sender, EventArgs e) {
 
             propertyForm1.Hide();
+        }
+
+        private void membersForm1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

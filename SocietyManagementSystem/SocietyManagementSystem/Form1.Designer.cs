@@ -33,13 +33,12 @@ namespace SocietyManagementSystem {
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
+            this.propertyForm1 = new SocietyManagementSystem.PropertyForm();
             this.dashboard1 = new SocietyManagementSystem.Dashboard();
-
-            this.membersForm1 = new SocietyManagementSystem.MembersForm();
-
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.gunaPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -184,14 +183,23 @@ namespace SocietyManagementSystem {
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.dashboard1);
             this.panel1.Controls.Add(this.membersForm1);
+            this.panel1.Controls.Add(this.propertyForm1);
+            this.panel1.Controls.Add(this.dashboard1);
             this.panel1.Controls.Add(this.complaintsForm1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(192, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(892, 661);
             this.panel1.TabIndex = 1;
+            // 
+            // propertyForm1
+            // 
+            this.propertyForm1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.propertyForm1.Location = new System.Drawing.Point(-1, -1);
+            this.propertyForm1.Name = "propertyForm1";
+            this.propertyForm1.Size = new System.Drawing.Size(890, 385);
+            this.propertyForm1.TabIndex = 3;
             // 
             // dashboard1
             // 
@@ -201,21 +209,6 @@ namespace SocietyManagementSystem {
             this.dashboard1.Name = "dashboard1";
             this.dashboard1.Size = new System.Drawing.Size(892, 661);
             this.dashboard1.TabIndex = 2;
-            // 
-            this.dashboard1.BackColor = System.Drawing.Color.White;
-            this.dashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dashboard1.Location = new System.Drawing.Point(0, 0);
-            this.dashboard1.Name = "dashboard1";
-            this.dashboard1.Size = new System.Drawing.Size(892, 661);
-            this.dashboard1.TabIndex = 2;
-            // 
-            // membersForm1
-            // 
-            this.membersForm1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.membersForm1.Location = new System.Drawing.Point(0, 0);
-            this.membersForm1.Name = "membersForm1";
-            this.membersForm1.Size = new System.Drawing.Size(892, 661);
-            this.membersForm1.TabIndex = 1;
             // 
             // complaintsForm1
             // 
@@ -230,6 +223,15 @@ namespace SocietyManagementSystem {
             // 
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
+            // 
+            // membersForm1
+            // 
+            this.membersForm1.BackColor = System.Drawing.Color.White;
+            this.membersForm1.Location = new System.Drawing.Point(0, 0);
+            this.membersForm1.Name = "membersForm1";
+            this.membersForm1.Size = new System.Drawing.Size(892, 661);
+            this.membersForm1.TabIndex = 4;
+            this.membersForm1.Load += new System.EventHandler(this.membersForm1_Load);
             // 
             // Form1
             // 
@@ -263,6 +265,8 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Dashboard dashboard1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private PropertyForm propertyForm1;
+        private MembersForm membersForm1;
     }
 }
 
