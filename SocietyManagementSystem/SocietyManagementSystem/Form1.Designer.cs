@@ -35,6 +35,9 @@ namespace SocietyManagementSystem {
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.dashboard1 = new SocietyManagementSystem.Dashboard();
+
+            this.membersForm1 = new SocietyManagementSystem.MembersForm();
+
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.gunaPanel1.SuspendLayout();
@@ -182,6 +185,7 @@ namespace SocietyManagementSystem {
             // panel1
             // 
             this.panel1.Controls.Add(this.dashboard1);
+            this.panel1.Controls.Add(this.membersForm1);
             this.panel1.Controls.Add(this.complaintsForm1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(192, 0);
@@ -197,6 +201,21 @@ namespace SocietyManagementSystem {
             this.dashboard1.Name = "dashboard1";
             this.dashboard1.Size = new System.Drawing.Size(892, 661);
             this.dashboard1.TabIndex = 2;
+            // 
+            this.dashboard1.BackColor = System.Drawing.Color.White;
+            this.dashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dashboard1.Location = new System.Drawing.Point(0, 0);
+            this.dashboard1.Name = "dashboard1";
+            this.dashboard1.Size = new System.Drawing.Size(892, 661);
+            this.dashboard1.TabIndex = 2;
+            // 
+            // membersForm1
+            // 
+            this.membersForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.membersForm1.Location = new System.Drawing.Point(0, 0);
+            this.membersForm1.Name = "membersForm1";
+            this.membersForm1.Size = new System.Drawing.Size(892, 661);
+            this.membersForm1.TabIndex = 1;
             // 
             // complaintsForm1
             // 
