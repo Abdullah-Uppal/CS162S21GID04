@@ -12,14 +12,31 @@ namespace SocietyManagementSystem {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
-        }
-
-        private void guna2ImageButton1_Click(object sender, EventArgs e) {
-            this.Dispose();
+            complaintsForm1.Hide();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e) {
             this.Dispose();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e) {
+            complaintsForm1.Show();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e) {
+            complaintsForm1.Hide();
+        }
+
+        private void gunaPanel1_Paint(object sender, PaintEventArgs e) {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e) {
+            complaintsForm1.Hide();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e) {
+            complaintsForm1.Hide();
         }
     }
 }
