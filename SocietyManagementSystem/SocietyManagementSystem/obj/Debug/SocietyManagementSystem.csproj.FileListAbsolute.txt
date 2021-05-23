@@ -1,7 +1,6 @@
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe.config
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.pdb
-C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Properties.Resources.resources
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.GenerateResource.cache
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.CoreCompileInputs.cache
@@ -14,19 +13,7 @@ C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSy
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.xml
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.ComplaintsForm.resources
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.MembersForm.resources
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Dashboard.resources
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe.config
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.pdb
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.ComplaintsForm.resources
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Dashboard.resources
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Form1.resources
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.MembersForm.resources
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Properties.Resources.resources
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.GenerateResource.cache
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.CoreCompileInputs.cache
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.CopyComplete
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.exe
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.pdb
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.PropertyForm.resources
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.PropertyForm.resources
