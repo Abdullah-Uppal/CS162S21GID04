@@ -1,0 +1,12 @@
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe.config
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.pdb
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Properties.Resources.resources
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.GenerateResource.cache
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.exe
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.pdb
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Form1.resources
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Guna.UI2.dll
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.CopyComplete
