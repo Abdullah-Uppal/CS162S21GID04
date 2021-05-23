@@ -33,12 +33,14 @@ namespace SocietyManagementSystem {
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaPanel1
             // 
             this.gunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
+            this.gunaPanel1.Controls.Add(this.guna2Button5);
             this.gunaPanel1.Controls.Add(this.guna2Button4);
             this.gunaPanel1.Controls.Add(this.guna2Button3);
             this.gunaPanel1.Controls.Add(this.guna2Button2);
@@ -161,6 +163,26 @@ namespace SocietyManagementSystem {
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
             // 
+            // guna2Button5
+            // 
+            this.guna2Button5.Animated = true;
+            this.guna2Button5.BorderRadius = 10;
+            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
+            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
+            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
+            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button5.ForeColor = System.Drawing.Color.White;
+            this.guna2Button5.HoverState.Parent = this.guna2Button5;
+            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
+            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button5.Location = new System.Drawing.Point(23, 607);
+            this.guna2Button5.Name = "guna2Button5";
+            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
+            this.guna2Button5.Size = new System.Drawing.Size(147, 32);
+            this.guna2Button5.TabIndex = 1;
+            this.guna2Button5.Text = "Exit";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,6 +209,7 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
     }
 }
 

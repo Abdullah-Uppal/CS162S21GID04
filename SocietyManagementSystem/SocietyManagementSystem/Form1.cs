@@ -13,5 +13,13 @@ namespace SocietyManagementSystem {
         public Form1() {
             InitializeComponent();
         }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e) {
+            this.Dispose();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e) {
+            this.Dispose();
+        }
     }
 }

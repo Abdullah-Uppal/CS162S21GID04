@@ -118,6 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="guna2Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAESSURBVEhL5Za9DcIwFIRTQErYgI4lIKxBwQSMQUcYgVXSIgYAZggNAwAN5l58FiAnlmMcGj7p
+        JN7fvSQKkZN3lFIptIHOUCgllEMpbW3YEIuctjYoytUIE6Zag9lMW6iSKRs2KIbB0KbZh/U/X4T2JTRm
+        WIH44PSRosDQC7TfoQs0ZUpyA6hgaINiBUMvOCJcoTnTku/zp03VDhh6wRHDA1qx1IzutRchtdcVb7ZQ
+        j+M2uqd2UQgFNKTFJ7oebZFwgka0eaFrURcdoc4XBT26na54E/YyuOCI4bvX2wVHhM7/sDfoJ5+gBdT9
+        R7UO2vzZInM4yZhqDWZn2sJ9OIl53FrT1gZFOUDKMnNnIdQcIJPkCQ7mHP1p3q21AAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="guna2Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
