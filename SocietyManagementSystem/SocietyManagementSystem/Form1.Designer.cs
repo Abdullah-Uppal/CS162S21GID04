@@ -35,7 +35,6 @@ namespace SocietyManagementSystem {
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -43,7 +42,6 @@ namespace SocietyManagementSystem {
             // gunaPanel1
             // 
             this.gunaPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
-            this.gunaPanel1.Controls.Add(this.guna2Button6);
             this.gunaPanel1.Controls.Add(this.guna2Button5);
             this.gunaPanel1.Controls.Add(this.guna2Button4);
             this.gunaPanel1.Controls.Add(this.guna2Button3);
@@ -195,36 +193,11 @@ namespace SocietyManagementSystem {
             // 
             // complaintsForm1
             // 
+            this.complaintsForm1.BackColor = System.Drawing.Color.White;
             this.complaintsForm1.Location = new System.Drawing.Point(0, 0);
             this.complaintsForm1.Name = "complaintsForm1";
             this.complaintsForm1.Size = new System.Drawing.Size(892, 661);
             this.complaintsForm1.TabIndex = 0;
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderRadius = 10;
-            this.guna2Button6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(90)))), ((int)(((byte)(194)))));
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button6.Location = new System.Drawing.Point(42, 280);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(111, 25);
-            this.guna2Button6.TabIndex = 2;
-            this.guna2Button6.Text = "Solved";
-            this.guna2Button6.TextOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button6.UseTransparentBackground = true;
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // Form1
             // 
@@ -256,7 +229,6 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private System.Windows.Forms.Panel panel1;
         private ComplaintsForm complaintsForm1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
     }
 }
 

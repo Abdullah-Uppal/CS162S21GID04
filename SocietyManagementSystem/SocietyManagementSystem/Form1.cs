@@ -20,7 +20,7 @@ namespace SocietyManagementSystem {
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) {
-            complaintsForm1.Hide();
+            complaintsForm1.Show();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e) {

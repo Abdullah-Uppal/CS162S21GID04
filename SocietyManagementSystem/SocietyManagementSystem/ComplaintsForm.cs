@@ -23,5 +23,13 @@ namespace SocietyManagementSystem {
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e) {
+            gunaLabel2.Text = "Pending";
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e) {
+            gunaLabel2.Text = "Solved";
+        }
     }
 }
