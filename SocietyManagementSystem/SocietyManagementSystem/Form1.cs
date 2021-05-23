@@ -13,7 +13,6 @@ namespace SocietyManagementSystem {
         public Form1() {
             InitializeComponent();
             complaintsForm1.Hide();
-            membersForm1.Hide();
         }
 
         private void guna2Button5_Click(object sender, EventArgs e) {
@@ -22,12 +21,10 @@ namespace SocietyManagementSystem {
 
         private void guna2Button2_Click(object sender, EventArgs e) {
             complaintsForm1.Show();
-            membersForm1.Hide();
         }
 
         private void guna2Button3_Click(object sender, EventArgs e) {
             complaintsForm1.Hide();
-            membersForm1.Show();
         }
 
         private void gunaPanel1_Paint(object sender, PaintEventArgs e) {
@@ -36,18 +33,15 @@ namespace SocietyManagementSystem {
 
         private void guna2Button4_Click(object sender, EventArgs e) {
             complaintsForm1.Hide();
-            membersForm1.Hide();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e) {
             complaintsForm1.Hide();
-            membersForm1.Hide();
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
             complaintsForm1.Show();
-            membersForm1.Hide();
         }
     }
 }

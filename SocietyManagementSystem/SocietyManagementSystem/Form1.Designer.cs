@@ -35,7 +35,6 @@ namespace SocietyManagementSystem {
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
-            this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.gunaPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -185,7 +184,6 @@ namespace SocietyManagementSystem {
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.membersForm1);
             this.panel1.Controls.Add(this.complaintsForm1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(192, 0);
@@ -200,13 +198,6 @@ namespace SocietyManagementSystem {
             this.complaintsForm1.Name = "complaintsForm1";
             this.complaintsForm1.Size = new System.Drawing.Size(892, 661);
             this.complaintsForm1.TabIndex = 0;
-            // 
-            // membersForm1
-            // 
-            this.membersForm1.Location = new System.Drawing.Point(43, 30);
-            this.membersForm1.Name = "membersForm1";
-            this.membersForm1.Size = new System.Drawing.Size(703, 442);
-            this.membersForm1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -238,7 +229,6 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private System.Windows.Forms.Panel panel1;
         private ComplaintsForm complaintsForm1;
-        private MembersForm membersForm1;
     }
 }
 
