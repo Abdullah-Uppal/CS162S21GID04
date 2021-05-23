@@ -10,3 +10,4 @@ C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSy
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Form1.resources
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Guna.UI2.dll
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csproj.CopyComplete
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Guna.UI.dll
