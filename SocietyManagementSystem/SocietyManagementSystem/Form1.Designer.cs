@@ -33,15 +33,21 @@ namespace SocietyManagementSystem {
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< Updated upstream
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
+=======
+>>>>>>> Stashed changes
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.dashboard1 = new SocietyManagementSystem.Dashboard();
             this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+<<<<<<< Updated upstream
             this.propertyForm1 = new SocietyManagementSystem.PropertyForm();
             this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
+=======
+>>>>>>> Stashed changes
             this.gunaPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -187,7 +193,10 @@ namespace SocietyManagementSystem {
             // panel1
             // 
             this.panel1.Controls.Add(this.dashboard1);
+<<<<<<< Updated upstream
             this.panel1.Controls.Add(this.propertyForm1);
+=======
+>>>>>>> Stashed changes
             this.panel1.Controls.Add(this.membersForm1);
             this.panel1.Controls.Add(this.complaintsForm1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -221,6 +230,7 @@ namespace SocietyManagementSystem {
             this.complaintsForm1.Size = new System.Drawing.Size(892, 661);
             this.complaintsForm1.TabIndex = 0;
             this.complaintsForm1.Load += new System.EventHandler(this.complaintsForm1_Load);
+<<<<<<< Updated upstream
             // propertyForm1
             // 
             this.propertyForm1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -228,10 +238,14 @@ namespace SocietyManagementSystem {
             this.propertyForm1.Name = "propertyForm1";
             this.propertyForm1.Size = new System.Drawing.Size(890, 385);
             this.propertyForm1.TabIndex = 2;
+=======
+            // 
+>>>>>>> Stashed changes
             // guna2Elipse1
             // 
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
+<<<<<<< Updated upstream
             // 
             // complaintsForm1
             // 
@@ -240,6 +254,8 @@ namespace SocietyManagementSystem {
             this.complaintsForm1.Name = "complaintsForm1";
             this.complaintsForm1.Size = new System.Drawing.Size(892, 661);
             this.complaintsForm1.TabIndex = 0;
+=======
+>>>>>>> Stashed changes
             // 
             // Form1
             // 
@@ -274,7 +290,10 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Dashboard dashboard1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+<<<<<<< Updated upstream
         private PropertyForm propertyForm1;
+=======
+>>>>>>> Stashed changes
     }
 }
 
