@@ -16,3 +16,4 @@ C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSy
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.MembersForm.resources
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Dashboard.resources
 C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
+C:\Users\Muhammad Abdullah\Desktop\Programming\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.PropertyForm.resources

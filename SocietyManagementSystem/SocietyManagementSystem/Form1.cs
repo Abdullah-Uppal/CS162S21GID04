@@ -17,11 +17,8 @@ namespace SocietyManagementSystem {
             membersForm1.Hide();
             dashboard1.Show();
             guna2ShadowForm1.SetShadowForm(this);
-<<<<<<< Updated upstream
             propertyForm1.Hide();
-=======
->>>>>>> Stashed changes
-        }
+        
 
         private void guna2Button5_Click(object sender, EventArgs e) {
             this.Dispose();
@@ -31,20 +28,14 @@ namespace SocietyManagementSystem {
             complaintsForm1.Show();
             membersForm1.Hide();
             dashboard1.Hide();
-<<<<<<< Updated upstream
             propertyForm1.Hide();
-=======
->>>>>>> Stashed changes
         }
 
         private void guna2Button3_Click(object sender, EventArgs e) {
             complaintsForm1.Hide();
             membersForm1.Show();
             dashboard1.Hide();
-<<<<<<< Updated upstream
             propertyForm1.Hide();
-=======
->>>>>>> Stashed changes
         }
 
         private void gunaPanel1_Paint(object sender, PaintEventArgs e) {
@@ -55,20 +46,14 @@ namespace SocietyManagementSystem {
             complaintsForm1.Hide();
             membersForm1.Hide();
             dashboard1.Hide();
-<<<<<<< Updated upstream
             propertyForm1.Show();
-=======
->>>>>>> Stashed changes
         }
 
         private void guna2Button1_Click(object sender, EventArgs e) {
             complaintsForm1.Hide();
             membersForm1.Hide();
             dashboard1.Show();
-<<<<<<< Updated upstream
             propertyForm1.Hide();
-=======
->>>>>>> Stashed changes
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)
@@ -80,10 +65,7 @@ namespace SocietyManagementSystem {
 
         private void complaintsForm1_Load(object sender, EventArgs e) {
 
-<<<<<<< Updated upstream
             propertyForm1.Hide();
-=======
->>>>>>> Stashed changes
         }
     }
 }

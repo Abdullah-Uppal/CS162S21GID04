@@ -251,7 +251,6 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private System.Windows.Forms.Panel panel1;
         private ComplaintsForm complaintsForm1;
-        private MembersForm membersForm1;
         private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
         private Dashboard dashboard1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
