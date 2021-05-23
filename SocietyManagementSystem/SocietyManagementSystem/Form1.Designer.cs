@@ -34,8 +34,9 @@ namespace SocietyManagementSystem {
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
+            this.propertyForm1 = new SocietyManagementSystem.PropertyForm();
             this.membersForm1 = new SocietyManagementSystem.MembersForm();
+            this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
             this.gunaPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -185,6 +186,7 @@ namespace SocietyManagementSystem {
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.propertyForm1);
             this.panel1.Controls.Add(this.membersForm1);
             this.panel1.Controls.Add(this.complaintsForm1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -193,13 +195,13 @@ namespace SocietyManagementSystem {
             this.panel1.Size = new System.Drawing.Size(892, 661);
             this.panel1.TabIndex = 1;
             // 
-            // complaintsForm1
+            // propertyForm1
             // 
-            this.complaintsForm1.BackColor = System.Drawing.Color.White;
-            this.complaintsForm1.Location = new System.Drawing.Point(0, 0);
-            this.complaintsForm1.Name = "complaintsForm1";
-            this.complaintsForm1.Size = new System.Drawing.Size(892, 661);
-            this.complaintsForm1.TabIndex = 0;
+            this.propertyForm1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.propertyForm1.Location = new System.Drawing.Point(-1, 160);
+            this.propertyForm1.Name = "propertyForm1";
+            this.propertyForm1.Size = new System.Drawing.Size(890, 385);
+            this.propertyForm1.TabIndex = 2;
             // 
             // membersForm1
             // 
@@ -207,6 +209,14 @@ namespace SocietyManagementSystem {
             this.membersForm1.Name = "membersForm1";
             this.membersForm1.Size = new System.Drawing.Size(703, 442);
             this.membersForm1.TabIndex = 1;
+            // 
+            // complaintsForm1
+            // 
+            this.complaintsForm1.BackColor = System.Drawing.Color.White;
+            this.complaintsForm1.Location = new System.Drawing.Point(0, 0);
+            this.complaintsForm1.Name = "complaintsForm1";
+            this.complaintsForm1.Size = new System.Drawing.Size(892, 661);
+            this.complaintsForm1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -239,6 +249,7 @@ namespace SocietyManagementSystem {
         private System.Windows.Forms.Panel panel1;
         private ComplaintsForm complaintsForm1;
         private MembersForm membersForm1;
+        private PropertyForm propertyForm1;
     }
 }
 
