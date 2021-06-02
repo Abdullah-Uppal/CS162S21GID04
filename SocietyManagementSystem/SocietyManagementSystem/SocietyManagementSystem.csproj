@@ -60,12 +60,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bakery.cs" />
+    <Compile Include="Building.cs" />
     <Compile Include="ComplaintsForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ComplaintsForm.Designer.cs">
       <DependentUpon>ComplaintsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="concert.cs" />
     <Compile Include="Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,12 +81,16 @@
     <Compile Include="DonationForm.Designer.cs">
       <DependentUpon>DonationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Event.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hospital.cs" />
+    <Compile Include="House.cs" />
+    <Compile Include="mehfilenaat.cs" />
     <Compile Include="MembersForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -98,6 +105,7 @@
     <Compile Include="PropertyForm.Designer.cs">
       <DependentUpon>PropertyForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tournaments.cs" />
     <EmbeddedResource Include="ComplaintsForm.resx">
       <DependentUpon>ComplaintsForm.cs</DependentUpon>
     </EmbeddedResource>
