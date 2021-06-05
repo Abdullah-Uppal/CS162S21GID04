@@ -21,7 +21,7 @@ namespace SocietyManagementSystem
                 location = value;
             }
         }
-        public String ToString()
+        public override String ToString()
         {
             return "";
         }

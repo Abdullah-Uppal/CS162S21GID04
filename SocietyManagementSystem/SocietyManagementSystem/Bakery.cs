@@ -4,33 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocietyManagementSystem
-{
-    class Bakery:Building
-    {
+namespace SocietyManagementSystem {
+    class Bakery : Building {
         private String name;
 
         private int total;
 
-        public String GetName
-        {
-            get
-            {
+        public String GetName {
+            get {
                 return name;
             }
-            set
-            {
+            set {
                 name = value;
             }
         }
-        public int GetTotal
-        {
-            get
-            {
+        public int GetTotal {
+            get {
                 return total;
             }
-            set
-            {
+            set {
                 total = value;
             }
         }
