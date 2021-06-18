@@ -63,5 +63,13 @@ namespace SocietyManagementSystem {
                 }
             }
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e) {
+            new AddComplaintForm().Show();
+        }
+
+        private void addComplaint1_Load(object sender, EventArgs e) {
+
+        }
     }
 }

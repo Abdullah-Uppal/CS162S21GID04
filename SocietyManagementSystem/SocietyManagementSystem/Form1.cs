@@ -11,7 +11,8 @@ using System.Management;
 
 namespace SocietyManagementSystem {
     public partial class Form1 : Form {
-        public Form1() {
+        public static Form1 _instance = null;
+        private Form1() {
             InitializeComponent();
             complaintsForm1.Hide();
             membersForm1.Hide();
@@ -21,8 +22,15 @@ namespace SocietyManagementSystem {
             propertyForm1.Hide();
 
         }
+        public static Form1 GetInstance() {
+            if (_instance == null) {
+                return new Form1();
+            }
+            return _instance;
+        }
         private void guna2Button5_Click(object sender, EventArgs e) {
             this.Dispose();
+            this.Close();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) {
@@ -63,8 +71,12 @@ namespace SocietyManagementSystem {
 
 
         private void complaintsForm1_Load(object sender, EventArgs e) {
-
             propertyForm1.Hide();
+            complaintsForm1.Hide();
+            membersForm1.Hide();
+            dashboard1.Hide();
+            propertyForm1.Hide();
+            donationForm1.Hide();
         }
 
         private void membersForm1_Load(object sender, EventArgs e) {
@@ -77,6 +89,21 @@ namespace SocietyManagementSystem {
             dashboard1.Hide();
             propertyForm1.Hide();
             donationForm1.Show();
+        }
+        public void ShowAddComplaintForm() {
+            complaintsForm1.Hide();
+            membersForm1.Hide();
+            dashboard1.Hide();
+            propertyForm1.Hide();
+            donationForm1.Hide();
+        }
+
+        private void propertyForm1_Load(object sender, EventArgs e) {
+
+        }
+
+        private void addComplaint1_Load(object sender, EventArgs e) {
+
         }
     }
 }
