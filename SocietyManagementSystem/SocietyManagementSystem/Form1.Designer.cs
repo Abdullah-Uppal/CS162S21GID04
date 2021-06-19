@@ -1,5 +1,4 @@
 ﻿
-
 namespace SocietyManagementSystem {
     partial class Form1 {
         /// <summary>
