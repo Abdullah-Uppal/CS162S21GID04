@@ -1,7 +1,6 @@
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe.config
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.exe
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\SocietyManagementSystem.pdb
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.ComplaintsForm.resources
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Dashboard.resources
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.Form1.resources
@@ -77,7 +76,6 @@ F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Syste
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Text.Json.dll
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.ValueTuple.dll
-F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.xml
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Buffers.xml
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Memory.xml

@@ -36,10 +36,10 @@ namespace SocietyManagementSystem {
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.membersForm2 = new SocietyManagementSystem.MembersForm();
             this.propertyForm1 = new SocietyManagementSystem.PropertyForm();
             this.dashboard1 = new SocietyManagementSystem.Dashboard();
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
-            ComplaintsForm.__instance = this.complaintsForm1;
             this.donationForm1 = new SocietyManagementSystem.DonationForm();
             this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.gunaPanel1.SuspendLayout();
@@ -217,6 +217,7 @@ namespace SocietyManagementSystem {
             this.panel1.Controls.Add(this.complaintsForm1);
             this.panel1.Controls.Add(this.donationForm1);
             this.panel1.Controls.Add(this.membersForm1);
+            this.panel1.Controls.Add(this.membersForm2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(192, 0);
             this.panel1.Name = "panel1";
@@ -227,6 +228,14 @@ namespace SocietyManagementSystem {
             // 
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
+            // 
+            // membersForm2
+            // 
+            this.membersForm2.BackColor = System.Drawing.Color.White;
+            this.membersForm2.Location = new System.Drawing.Point(0, 3);
+            this.membersForm2.Name = "membersForm2";
+            this.membersForm2.Size = new System.Drawing.Size(892, 661);
+            this.membersForm2.TabIndex = 6;
             // 
             // propertyForm1
             // 
@@ -309,6 +318,7 @@ namespace SocietyManagementSystem {
         private MembersForm membersForm1;
         private DonationForm donationForm1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private MembersForm membersForm2;
     }
 }
 

@@ -17,6 +17,7 @@ namespace SocietyManagementSystem {
         [JsonIgnore]
         private static Society __instance = null;
         public List<Complaint> complaints;
+        public List<Members> member;
         public void SaveData() {
             File.WriteAllText("../../data.json", JsonSerializer.Serialize(this, new JsonSerializerOptions() { WriteIndented = true }));
         }
@@ -61,6 +62,7 @@ namespace SocietyManagementSystem {
         }
         public Society() {
             complaints = new List<Complaint>();
+            member = new List<Members>();
         }
         /// <summary>
         /// To get the singleton instance of Society class.
@@ -76,7 +78,22 @@ namespace SocietyManagementSystem {
             complaints.Add(c);
             return true;
         }
-
+        public bool AddMember(Members m)
+        {
+            member.Add(m);
+            return true;
+        }
+        public List<Members> Member
+        {
+            get
+            {
+                return member;
+            }
+            set
+            {
+                member = value;
+            }
+        }
     }
     class Loader {
 

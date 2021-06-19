@@ -16,5 +16,16 @@
       "ComplainantName": "Taya G",
       "ComplainantEmail": "ozindabadputtar@pind.com"
     }
+  ],
+  "Member": [
+    {
+      "Age": 25,
+      "designation": "Honest",
+      "Address": "Ali Town",
+      "Name": "Ali",
+      "PhoneNumber": "03124010503",
+      "Email": "Ali@gmail.com",
+      "CNIC": "35202541755009"
+    }
   ]
 }
