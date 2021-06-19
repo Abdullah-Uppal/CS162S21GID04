@@ -31,8 +31,15 @@ namespace SocietyManagementSystem {
         }
         public List<Complaint> PendingComplaints {
             get {
-                //By my partner
-                return new List<Complaint>;
+                List<Complaint> pending = new List<Complaint>();
+                foreach (var complaint in complaints)
+                {
+                    if (complaint.Status == "Pending")
+                    {
+                        pending.Add(complaint);
+                    }
+                }
+                return pending;
             }
         }
         private Society() {

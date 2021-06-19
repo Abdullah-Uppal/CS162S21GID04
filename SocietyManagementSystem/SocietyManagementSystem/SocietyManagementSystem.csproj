@@ -88,6 +88,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddComplaintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddComplaintForm.Designer.cs">
+      <DependentUpon>AddComplaintForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bakery.cs" />
     <Compile Include="Building.cs" />
     <Compile Include="Complaint.cs" />

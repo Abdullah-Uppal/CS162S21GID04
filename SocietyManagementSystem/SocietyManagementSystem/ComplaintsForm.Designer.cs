@@ -27,8 +27,8 @@ namespace SocietyManagementSystem {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.PendingButton = new Guna.UI2.WinForms.Guna2Button();
+            this.SolvedButton = new Guna.UI2.WinForms.Guna2Button();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
@@ -43,65 +43,67 @@ namespace SocietyManagementSystem {
             this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
             this.body = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Button1
+            // PendingButton
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button1.Checked = true;
-            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
-            this.guna2Button1.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(42, 31);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(133, 40);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "Pending";
-            this.guna2Button1.UseTransparentBackground = true;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.PendingButton.Animated = true;
+            this.PendingButton.BackColor = System.Drawing.Color.Transparent;
+            this.PendingButton.BorderRadius = 10;
+            this.PendingButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.PendingButton.Checked = true;
+            this.PendingButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
+            this.PendingButton.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.PendingButton.CheckedState.Parent = this.PendingButton;
+            this.PendingButton.CustomImages.Parent = this.PendingButton;
+            this.PendingButton.FillColor = System.Drawing.Color.White;
+            this.PendingButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PendingButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
+            this.PendingButton.HoverState.Parent = this.PendingButton;
+            this.PendingButton.Location = new System.Drawing.Point(23, 19);
+            this.PendingButton.Name = "PendingButton";
+            this.PendingButton.ShadowDecoration.Parent = this.PendingButton;
+            this.PendingButton.Size = new System.Drawing.Size(133, 40);
+            this.PendingButton.TabIndex = 2;
+            this.PendingButton.Text = "Pending";
+            this.PendingButton.UseTransparentBackground = true;
+            this.PendingButton.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2Button2
+            // SolvedButton
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
-            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(42, 87);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(133, 40);
-            this.guna2Button2.TabIndex = 2;
-            this.guna2Button2.Text = "Solved";
-            this.guna2Button2.UseTransparentBackground = true;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.SolvedButton.Animated = true;
+            this.SolvedButton.BackColor = System.Drawing.Color.Transparent;
+            this.SolvedButton.BorderRadius = 10;
+            this.SolvedButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.SolvedButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
+            this.SolvedButton.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.SolvedButton.CheckedState.Parent = this.SolvedButton;
+            this.SolvedButton.CustomImages.Parent = this.SolvedButton;
+            this.SolvedButton.FillColor = System.Drawing.Color.White;
+            this.SolvedButton.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.SolvedButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(93)))));
+            this.SolvedButton.HoverState.Parent = this.SolvedButton;
+            this.SolvedButton.Location = new System.Drawing.Point(173, 19);
+            this.SolvedButton.Name = "SolvedButton";
+            this.SolvedButton.ShadowDecoration.Parent = this.SolvedButton;
+            this.SolvedButton.Size = new System.Drawing.Size(133, 40);
+            this.SolvedButton.TabIndex = 2;
+            this.SolvedButton.Text = "Solved";
+            this.SolvedButton.UseTransparentBackground = true;
+            this.SolvedButton.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // gunaLabel2
             // 
             this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("JetBrains Mono", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.Location = new System.Drawing.Point(214, 31);
+            this.gunaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.Location = new System.Drawing.Point(759, 35);
             this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(89, 25);
+            this.gunaLabel2.Size = new System.Drawing.Size(81, 24);
             this.gunaLabel2.TabIndex = 4;
             this.gunaLabel2.Text = "Pending";
+            this.gunaLabel2.Click += new System.EventHandler(this.gunaLabel2_Click);
             // 
             // guna2DataGridView1
             // 
@@ -131,11 +133,11 @@ namespace SocietyManagementSystem {
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(245)))), ((int)(((byte)(247)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(219, 59);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(23, 69);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(629, 363);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(846, 363);
             this.guna2DataGridView1.TabIndex = 5;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Light;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(248)))), ((int)(((byte)(249)))));
@@ -322,11 +324,28 @@ namespace SocietyManagementSystem {
             this.guna2Button3.Text = "Send";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
+            // guna2Button4
+            // 
+            this.guna2Button4.BorderRadius = 10;
+            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
+            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.HoverState.Parent = this.guna2Button4;
+            this.guna2Button4.Location = new System.Drawing.Point(312, 19);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
+            this.guna2Button4.Size = new System.Drawing.Size(133, 40);
+            this.guna2Button4.TabIndex = 17;
+            this.guna2Button4.Text = "Add Complaint";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            // 
             // ComplaintsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.body);
             this.Controls.Add(this.gunaLabel7);
@@ -341,8 +360,8 @@ namespace SocietyManagementSystem {
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.gunaLabel2);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.SolvedButton);
+            this.Controls.Add(this.PendingButton);
             this.Name = "ComplaintsForm";
             this.Size = new System.Drawing.Size(892, 661);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
@@ -352,8 +371,8 @@ namespace SocietyManagementSystem {
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button PendingButton;
+        private Guna.UI2.WinForms.Guna2Button SolvedButton;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
@@ -368,5 +387,6 @@ namespace SocietyManagementSystem {
         private Guna.UI.WinForms.GunaLabel gunaLabel7;
         private Guna.UI2.WinForms.Guna2TextBox body;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
     }
 }

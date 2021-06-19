@@ -12,11 +12,31 @@ using System.Windows.Forms;
 
 namespace SocietyManagementSystem {
     public partial class ComplaintsForm : UserControl {
-        public ComplaintsForm() {
+        private static ComplaintsForm __instance = null;
+        public static ComplaintsForm GetInstance()
+        {
+            if (__instance == null)
+            {
+                __instance = new ComplaintsForm();
+            }
+            return __instance;
+        }
+        private ComplaintsForm() {
             
             
             InitializeComponent();
             LoadPending();
+        }
+        public void LoadComplaints()
+        {
+            if (SolvedButton.Checked == true)
+            {
+                LoadSolved();
+            }
+            else if (PendingButton.Checked == true)
+            {
+                LoadPending();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e) {
@@ -31,10 +51,10 @@ namespace SocietyManagementSystem {
             gunaLabel2.Text = "Pending";
             LoadPending();
         }
-        private void LoadPending() {
+        public void LoadPending() {
             guna2DataGridView1.DataSource = Society.GetInstance().PendingComplaints;
         }
-        private void LoadSolved() {
+        public void LoadSolved() {
             guna2DataGridView1.DataSource = Society.GetInstance().SolvedComplaints;
         }
 
@@ -86,6 +106,16 @@ namespace SocietyManagementSystem {
                     smtp.Send(mail);
                 }
             }
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            new AddComplaintForm().Show();
+        }
+
+        private void gunaLabel2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

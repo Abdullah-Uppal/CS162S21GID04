@@ -68,3 +68,23 @@ C:\Users\Muhammad Abdullah\Source\Repos\CS162S21GID04\SocietyManagementSystem\So
 C:\Users\Muhammad Abdullah\Source\Repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Text.Json.xml
 C:\Users\Muhammad Abdullah\Source\Repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Muhammad Abdullah\Source\Repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.ValueTuple.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Buffers.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Memory.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Numerics.Vectors.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Text.Encodings.Web.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Text.Json.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.ValueTuple.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Buffers.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Memory.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Numerics.Vectors.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Text.Encodings.Web.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Text.Json.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\System.ValueTuple.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.DonationForm.resources

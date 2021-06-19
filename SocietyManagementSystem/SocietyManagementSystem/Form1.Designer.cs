@@ -38,7 +38,7 @@ namespace SocietyManagementSystem {
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.propertyForm1 = new SocietyManagementSystem.PropertyForm();
             this.dashboard1 = new SocietyManagementSystem.Dashboard();
-            this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
+            this.complaintsForm1 = SocietyManagementSystem.ComplaintsForm.GetInstance();
             this.donationForm1 = new SocietyManagementSystem.DonationForm();
             this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.gunaPanel1.SuspendLayout();
