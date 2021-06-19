@@ -13,7 +13,7 @@ namespace SocietyManagementSystem {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(Form1.GetInstance());
+            Application.Run(new Form1());
         }
     }
 }
