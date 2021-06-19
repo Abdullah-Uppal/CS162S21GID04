@@ -27,6 +27,7 @@ namespace SocietyManagementSystem {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -35,12 +36,11 @@ namespace SocietyManagementSystem {
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.donationForm1 = new SocietyManagementSystem.DonationForm();
-            this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.propertyForm1 = new SocietyManagementSystem.PropertyForm();
             this.dashboard1 = new SocietyManagementSystem.Dashboard();
             this.complaintsForm1 = new SocietyManagementSystem.ComplaintsForm();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.donationForm1 = new SocietyManagementSystem.DonationForm();
+            this.membersForm1 = new SocietyManagementSystem.MembersForm();
             this.gunaPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -60,6 +60,31 @@ namespace SocietyManagementSystem {
             this.gunaPanel1.Size = new System.Drawing.Size(192, 661);
             this.gunaPanel1.TabIndex = 0;
             this.gunaPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.gunaPanel1_Paint);
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button6.BorderRadius = 10;
+            this.guna2Button6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(90)))), ((int)(((byte)(194)))));
+            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
+            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
+            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(94)))));
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.HoverState.Parent = this.guna2Button6;
+            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
+            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button6.ImageOffset = new System.Drawing.Point(7, 0);
+            this.guna2Button6.Location = new System.Drawing.Point(23, 455);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
+            this.guna2Button6.Size = new System.Drawing.Size(147, 45);
+            this.guna2Button6.TabIndex = 2;
+            this.guna2Button6.Text = "Donations";
+            this.guna2Button6.TextOffset = new System.Drawing.Point(5, 0);
+            this.guna2Button6.UseTransparentBackground = true;
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click_1);
             // 
             // guna2Button5
             // 
@@ -202,24 +227,6 @@ namespace SocietyManagementSystem {
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // donationForm1
-            // 
-            this.donationForm1.BackColor = System.Drawing.Color.White;
-            this.donationForm1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.donationForm1.Location = new System.Drawing.Point(0, 0);
-            this.donationForm1.Name = "donationForm1";
-            this.donationForm1.Size = new System.Drawing.Size(892, 661);
-            this.donationForm1.TabIndex = 5;
-            // 
-            // membersForm1
-            // 
-            this.membersForm1.BackColor = System.Drawing.Color.White;
-            this.membersForm1.Location = new System.Drawing.Point(0, 0);
-            this.membersForm1.Name = "membersForm1";
-            this.membersForm1.Size = new System.Drawing.Size(892, 661);
-            this.membersForm1.TabIndex = 4;
-            this.membersForm1.Load += new System.EventHandler(this.membersForm1_Load);
-            // 
             // propertyForm1
             // 
             this.propertyForm1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -247,30 +254,23 @@ namespace SocietyManagementSystem {
             this.complaintsForm1.TabIndex = 0;
             this.complaintsForm1.Load += new System.EventHandler(this.complaintsForm1_Load);
             // 
-            // guna2Button6
+            // donationForm1
             // 
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderRadius = 10;
-            this.guna2Button6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(90)))), ((int)(((byte)(194)))));
-            this.guna2Button6.CheckedState.Parent = this.guna2Button6;
-            this.guna2Button6.CustomImages.Parent = this.guna2Button6;
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(43)))), ((int)(((byte)(94)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
-            this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button6.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button6.Location = new System.Drawing.Point(23, 455);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(147, 45);
-            this.guna2Button6.TabIndex = 2;
-            this.guna2Button6.Text = "Donations";
-            this.guna2Button6.TextOffset = new System.Drawing.Point(5, 0);
-            this.guna2Button6.UseTransparentBackground = true;
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click_1);
+            this.donationForm1.BackColor = System.Drawing.Color.White;
+            this.donationForm1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.donationForm1.Location = new System.Drawing.Point(0, 0);
+            this.donationForm1.Name = "donationForm1";
+            this.donationForm1.Size = new System.Drawing.Size(892, 661);
+            this.donationForm1.TabIndex = 5;
+            // 
+            // membersForm1
+            // 
+            this.membersForm1.BackColor = System.Drawing.Color.White;
+            this.membersForm1.Location = new System.Drawing.Point(0, 0);
+            this.membersForm1.Name = "membersForm1";
+            this.membersForm1.Size = new System.Drawing.Size(892, 661);
+            this.membersForm1.TabIndex = 4;
+            this.membersForm1.Load += new System.EventHandler(this.membersForm1_Load);
             // 
             // Form1
             // 

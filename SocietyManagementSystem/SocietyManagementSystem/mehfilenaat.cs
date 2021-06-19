@@ -34,9 +34,5 @@ namespace SocietyManagementSystem
                 members = value;
             }
         }
-        public String ToString()
-        {
-            return "";
-        }
     }
 }

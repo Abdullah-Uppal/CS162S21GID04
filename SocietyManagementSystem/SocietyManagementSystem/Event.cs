@@ -8,7 +8,6 @@ namespace SocietyManagementSystem
 {
     class Event
     {
-        private String event_name;
         private DateTime event_time;
         
         
@@ -30,9 +29,6 @@ namespace SocietyManagementSystem
             }
         }
 
-        public String ToString()
-        {
-            return "";
-        }
+        
     }
 }

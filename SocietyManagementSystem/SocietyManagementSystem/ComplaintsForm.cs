@@ -13,7 +13,10 @@ using System.Windows.Forms;
 namespace SocietyManagementSystem {
     public partial class ComplaintsForm : UserControl {
         public ComplaintsForm() {
+            
+            
             InitializeComponent();
+            LoadPending();
         }
 
         private void label1_Click(object sender, EventArgs e) {
@@ -26,10 +29,31 @@ namespace SocietyManagementSystem {
 
         private void guna2Button1_Click(object sender, EventArgs e) {
             gunaLabel2.Text = "Pending";
+            LoadPending();
+        }
+        private void LoadPending() {
+            guna2DataGridView1.DataSource = Society.GetInstance().PendingComplaints;
+        }
+        private void LoadSolved() {
+            guna2DataGridView1.DataSource = Society.GetInstance().SolvedComplaints;
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) {
             gunaLabel2.Text = "Solved";
+            //for (int i = 0; i < 10; i++) {
+            //    Society.GetInstance().AddComplaint(
+            //        new Complaint() {
+            //            ComplainantName = "Abdullah" + i,
+            //            ComplainantEmail = $"computerinsider{i}@gmail.com",
+            //            Date = DateTime.Now,
+            //            Status = "Pending",
+            //            Name = "Water Problem",
+            //            Description = "Water is not clean there and timing is very bad"
+            //        }
+            //        );
+            //}
+            LoadSolved();
+
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e) {
