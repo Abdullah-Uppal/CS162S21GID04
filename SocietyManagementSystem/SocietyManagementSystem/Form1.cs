@@ -19,6 +19,7 @@ namespace SocietyManagementSystem {
             return __instance;
         }
         private Form1() {
+            Loader.LoadData();
             InitializeComponent();
             complaintsForm1.Hide();
             membersForm1.Hide();
@@ -26,6 +27,9 @@ namespace SocietyManagementSystem {
             dashboard1.Show();
             guna2ShadowForm1.SetShadowForm(this);
             propertyForm1.Hide();
+            this.Disposed += (object sender, EventArgs e) =>{
+                Society.GetInstance().SaveData();
+            };
 
         }
         private void guna2Button5_Click(object sender, EventArgs e) {

@@ -1,0 +1,20 @@
+{
+  "Complaints": [
+    {
+      "Status": "Pending",
+      "Name": "BIjli",
+      "Description": "Yar bijli ati hi ni ziada dair pta ni kia masla hai uper se garmi itni yar tum log na sardiyo\u0027n mein bhej lia kro",
+      "Date": "2021-06-19T13:43:47",
+      "ComplainantName": "Abdullah",
+      "ComplainantEmail": "computerinsider4@gmail.com"
+    },
+    {
+      "Status": "Solved",
+      "Name": "Koi nawi gaddi leyao",
+      "Description": "Yar Orange train ne te dhoom macha ti ay.",
+      "Date": "2021-06-19T14:07:46",
+      "ComplainantName": "Taya G",
+      "ComplainantEmail": "ozindabadputtar@pind.com"
+    }
+  ]
+}

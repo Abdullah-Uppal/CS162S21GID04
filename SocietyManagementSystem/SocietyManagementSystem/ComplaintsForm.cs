@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace SocietyManagementSystem {
     public partial class ComplaintsForm : UserControl {
-        private static ComplaintsForm __instance = null;
+        public static ComplaintsForm __instance = null;
         public static ComplaintsForm GetInstance()
         {
             if (__instance == null)
@@ -21,7 +21,7 @@ namespace SocietyManagementSystem {
             }
             return __instance;
         }
-        private ComplaintsForm() {
+        public ComplaintsForm() {
             
             
             InitializeComponent();
@@ -116,6 +116,14 @@ namespace SocietyManagementSystem {
         private void gunaLabel2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2DataGridView1_RowStateChanged(object sender, DataGridViewRowStateChangedEventArgs e) {
+            
+        }
+
+        private void guna2DataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e) {
+            MessageBox.Show(guna2DataGridView1.CurrentCell.RowIndex.ToString());
         }
     }
 }
