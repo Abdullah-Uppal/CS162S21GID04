@@ -125,9 +125,9 @@ namespace SocietyManagementSystem {
 
         private void guna2DataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e) {
             if (PendingButton.Checked == true)
-                x = new PopUpMenu(guna2DataGridView1.CurrentCell.RowIndex, true);
+                x = new PopUpMenu(this, guna2DataGridView1.CurrentCell.RowIndex, true);
             else
-                x = new PopUpMenu(guna2DataGridView1.CurrentCell.RowIndex, false);
+                x = new PopUpMenu(this, guna2DataGridView1.CurrentCell.RowIndex, false);
             x.Show();
         }
 

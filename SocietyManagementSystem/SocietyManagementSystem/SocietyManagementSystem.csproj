@@ -154,6 +154,7 @@
     </Compile>
     <Compile Include="Society.cs" />
     <Compile Include="Tournaments.cs" />
+    <Compile Include="Validator.cs" />
     <EmbeddedResource Include="AddComplaintForm.resx">
       <DependentUpon>AddComplaintForm.cs</DependentUpon>
     </EmbeddedResource>
