@@ -19,6 +19,9 @@ namespace SocietyManagementSystem {
         public List<Complaint> complaints;
         [JsonIgnore]
         public List<Person> member;
+
+        [JsonIgnore]
+        public List<Donation> donate;
         public void SaveData() {
             JsonSerializer j = new JsonSerializer() { Formatting = Formatting.Indented };
             using (var sw = new StreamWriter("../../data.json"))
@@ -63,9 +66,24 @@ namespace SocietyManagementSystem {
                 return pending;
             }
         }
+        public List<Donation> SearchByCNIC(String cnic)
+        {
+            List<Donation> search = new List<Donation>();
+            foreach(var donation in donate)
+            {
+                if(donation.CNIC==cnic)
+                {
+                    search.Add(donation);
+              
+                }
+                
+            }
+            return search;
+        }
         public Society() {
             complaints = new List<Complaint>();
             member = new List<Person>();
+            donate = new List<Donation>();
         }
         /// <summary>
         /// To get the singleton instance of Society class.
@@ -85,12 +103,28 @@ namespace SocietyManagementSystem {
             member.Add(m);
             return true;
         }
+        public bool AddDonor(Donation d)
+        {
+            donate.Add(d);
+            return true;
+        }
         public List<Person> Member {
             get {
                 return member;
             }
             set {
                 member = value;
+            }
+        }
+        public List<Donation> Donate
+        {
+            get
+            {
+                return donate;
+            }
+            set
+            {
+                donate = value;
             }
         }
     }

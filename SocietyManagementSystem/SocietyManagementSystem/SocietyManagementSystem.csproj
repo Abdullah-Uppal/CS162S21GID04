@@ -113,6 +113,7 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Donation.cs" />
     <Compile Include="DonationForm.cs">
       <SubType>UserControl</SubType>
     </Compile>

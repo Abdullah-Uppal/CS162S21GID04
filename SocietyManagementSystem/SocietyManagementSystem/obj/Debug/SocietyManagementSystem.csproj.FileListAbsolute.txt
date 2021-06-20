@@ -88,3 +88,7 @@ F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\Socie
 C:\Users\Muhammad Abdullah\source\repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Muhammad Abdullah\source\repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Muhammad Abdullah\source\repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.AddComplaintForm.resources
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Newtonsoft.Json.dll
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Newtonsoft.Json.xml
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
+F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.AddComplaintForm.resources
