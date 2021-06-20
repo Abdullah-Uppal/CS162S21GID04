@@ -11,10 +11,13 @@
   ],
   "Member": [
     {
+      "Age": 19,
+      "designation": "Carpenter",
+      "Address": "Chah Miran, Lahore",
       "Name": "Abdullah",
       "PhoneNumber": "03009439389",
       "Email": "computerinsider4@gmail.com",
-      "CNIC": "3520098765434"
+      "CNIC": "3520053157047"
     }
   ]
 }
