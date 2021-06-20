@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocietyManagementSystem
 {
-    abstract class Person
+    class Person
     {
         /// <summary>
         /// A person has a Name

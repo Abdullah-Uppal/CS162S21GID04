@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocietyManagementSystem
 {
-    class Members : Person
+    class Member : Person
     {
         /// <summary>
         /// Members have different ages

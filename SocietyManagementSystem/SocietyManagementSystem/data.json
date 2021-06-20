@@ -2,30 +2,19 @@
   "Complaints": [
     {
       "Status": "Pending",
-      "Name": "BIjli",
-      "Description": "Yar bijli ati hi ni ziada dair pta ni kia masla hai uper se garmi itni yar tum log na sardiyo\u0027n mein bhej lia kro",
-      "Date": "2021-06-19T13:43:47",
-      "ComplainantName": "Abdullah",
+      "Name": "Water Problem",
+      "Description": "Pani Anay janay ka koi sae time hi ni hai. jb marzi muh utha kr chla jata hai. fix it plz",
+      "Date": "2021-06-20T14:25:06",
+      "ComplainantName": "Abdullah Asif",
       "ComplainantEmail": "computerinsider4@gmail.com"
-    },
-    {
-      "Status": "Solved",
-      "Name": "Koi nawi gaddi leyao",
-      "Description": "Yar Orange train ne te dhoom macha ti ay.",
-      "Date": "2021-06-19T14:07:46",
-      "ComplainantName": "Taya G",
-      "ComplainantEmail": "ozindabadputtar@pind.com"
     }
   ],
   "Member": [
     {
-      "Age": 25,
-      "designation": "Honest",
-      "Address": "Ali Town",
-      "Name": "Ali",
-      "PhoneNumber": "03124010503",
-      "Email": "Ali@gmail.com",
-      "CNIC": "35202541755009"
+      "Name": "Abdullah",
+      "PhoneNumber": "03009439389",
+      "Email": "computerinsider4@gmail.com",
+      "CNIC": "3520098765434"
     }
   ]
 }

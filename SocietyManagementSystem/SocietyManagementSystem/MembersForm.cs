@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace SocietyManagementSystem {
     public partial class MembersForm : UserControl {
@@ -18,7 +20,7 @@ namespace SocietyManagementSystem {
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            Members m = new Members()
+            Member m = new Member()
             {
                 Name = NameTextBox.Text,
                 PhoneNumber=PhoneNumberBox.Text,
@@ -29,6 +31,7 @@ namespace SocietyManagementSystem {
                 CNIC=CNICBox.Text
             };
             Society.GetInstance().AddMember(m);
+            LoadMember();
         }
 
         private void gunaLineTextBox5_TextChanged(object sender, EventArgs e)
@@ -37,6 +40,7 @@ namespace SocietyManagementSystem {
         }
         public void LoadMember()
         {
+            guna2DataGridView1.DataSource = new List<Member>();
             guna2DataGridView1.DataSource = Society.GetInstance().Member;
         }
     }

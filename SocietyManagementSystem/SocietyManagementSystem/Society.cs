@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.Json.Serialization;
-using System.Text.Json;
 using System.IO;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace SocietyManagementSystem {
     /// <summary>
@@ -16,10 +15,16 @@ namespace SocietyManagementSystem {
     class Society {
         [JsonIgnore]
         private static Society __instance = null;
+        [JsonIgnore]
         public List<Complaint> complaints;
-        public List<Members> member;
+        [JsonIgnore]
+        public List<Person> member;
         public void SaveData() {
-            File.WriteAllText("../../data.json", JsonSerializer.Serialize(this, new JsonSerializerOptions() { WriteIndented = true }));
+            JsonSerializer j = new JsonSerializer() { Formatting = Formatting.Indented };
+            using (var sw = new StreamWriter("../../data.json"))
+            using (JsonWriter writer = new JsonTextWriter(sw)) {
+                j.Serialize(writer, __instance);
+            }
         }
 
         public static void SetInstance(Society value) {
@@ -30,7 +35,7 @@ namespace SocietyManagementSystem {
             get {
                 return complaints;
             }
-            set{
+            set {
                 complaints = value;
             }
         }
@@ -50,10 +55,8 @@ namespace SocietyManagementSystem {
         public List<Complaint> PendingComplaints {
             get {
                 List<Complaint> pending = new List<Complaint>();
-                foreach (var complaint in complaints)
-                {
-                    if (complaint.Status == "Pending")
-                    {
+                foreach (var complaint in complaints) {
+                    if (complaint.Status == "Pending") {
                         pending.Add(complaint);
                     }
                 }
@@ -62,7 +65,7 @@ namespace SocietyManagementSystem {
         }
         public Society() {
             complaints = new List<Complaint>();
-            member = new List<Members>();
+            member = new List<Person>();
         }
         /// <summary>
         /// To get the singleton instance of Society class.
@@ -78,19 +81,15 @@ namespace SocietyManagementSystem {
             complaints.Add(c);
             return true;
         }
-        public bool AddMember(Members m)
-        {
+        public bool AddMember(Member m) {
             member.Add(m);
             return true;
         }
-        public List<Members> Member
-        {
-            get
-            {
+        public List<Person> Member {
+            get {
                 return member;
             }
-            set
-            {
+            set {
                 member = value;
             }
         }
@@ -98,7 +97,17 @@ namespace SocietyManagementSystem {
     class Loader {
 
         public static void LoadData() {
-            Society.SetInstance(JsonSerializer.Deserialize<Society>(File.ReadAllText("../../data.json")));
+            JsonSerializer j = new JsonSerializer() { Formatting = Formatting.Indented };
+            try {
+                using (var sw = new StreamReader("../../data.json")) {
+                    using (var reader = new JsonTextReader(sw)) {
+                        Society.SetInstance(j.Deserialize<Society>(reader));
+                    }
+                }
+            }
+            catch {
+
+            }
         }
     }
 }

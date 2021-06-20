@@ -15,6 +15,7 @@ namespace SocietyManagementSystem
         public AddComplaintForm()
         {
             InitializeComponent();
+            guna2ShadowForm1.SetShadowForm(this);
             dateTime.Text = DateTime.Now.ToString();
         }
 

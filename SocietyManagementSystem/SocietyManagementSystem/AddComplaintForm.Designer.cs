@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.SolvedRadioButton = new Guna.UI2.WinForms.Guna2RadioButton();
             this.PendingRadioButton = new Guna.UI2.WinForms.Guna2RadioButton();
             this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
@@ -44,6 +45,8 @@
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.SuspendLayout();
             // 
             // SolvedRadioButton
@@ -265,10 +268,16 @@
             this.gunaLabel1.TabIndex = 11;
             this.gunaLabel1.Text = "Add Complaint";
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // AddComplaintForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(876, 535);
             this.Controls.Add(this.SolvedRadioButton);
             this.Controls.Add(this.PendingRadioButton);
@@ -286,7 +295,9 @@
             this.Controls.Add(this.gunaLabel3);
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddComplaintForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddComplaintForm";
             this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.AddComplaintForm_MouseClick);
             this.ResumeLayout(false);
@@ -312,5 +323,7 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2ShadowForm guna2ShadowForm1;
     }
 }

@@ -111,6 +111,7 @@ namespace SocietyManagementSystem {
         private void guna2Button4_Click(object sender, EventArgs e)
         {
             new AddComplaintForm().Show();
+            LoadComplaints();
         }
 
         private void gunaLabel2_Click(object sender, EventArgs e)
