@@ -1,22 +1,15 @@
 {
   "Complaints": [
     {
-      "Status": "Pending",
-      "Name": "Water Problem",
-      "Description": "Pani Anay janay ka koi sae time hi ni hai. jb marzi muh utha kr chla jata hai. fix it plz",
-      "Date": "2021-06-20T14:25:06",
-      "ComplainantName": "Abdullah Asif",
-      "ComplainantEmail": "computerinsider4@gmail.com"
+      "Status": "Solved",
+      "Name": "No Problem",
+      "Description": "What is your problem",
+      "Date": "2021-06-20T21:56:19",
+      "ComplainantName": "Sameed",
+      "ComplainantEmail": "sameed@gmail.com"
     }
   ],
-  "Member": [
-    {
-      "Name": "Abdullah",
-      "PhoneNumber": "03009439389",
-      "Email": "computerinsider4@gmail.com",
-      "CNIC": "3520053157047"
-    }
-  ],
+  "Member": [],
   "Donate": [
     {
       "Name": "Sameed",

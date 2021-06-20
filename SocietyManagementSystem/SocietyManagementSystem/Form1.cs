@@ -27,9 +27,10 @@ namespace SocietyManagementSystem {
             dashboard1.Show();
             guna2ShadowForm1.SetShadowForm(this);
             propertyForm1.Hide();
-            this.Disposed += (object sender, EventArgs e) =>{
+            this.Disposed += (object sender, EventArgs e) => {
                 Society.GetInstance().SaveData();
             };
+            
 
         }
         private void guna2Button5_Click(object sender, EventArgs e) {

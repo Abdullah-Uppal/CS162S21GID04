@@ -12,29 +12,24 @@ using System.Windows.Forms;
 
 namespace SocietyManagementSystem {
     public partial class ComplaintsForm : UserControl {
+        public static PopUpMenu x;
         public static ComplaintsForm __instance = null;
-        public static ComplaintsForm GetInstance()
-        {
-            if (__instance == null)
-            {
+        public static ComplaintsForm GetInstance() {
+            if (__instance == null) {
                 __instance = new ComplaintsForm();
             }
             return __instance;
         }
         public ComplaintsForm() {
-            
-            
+
             InitializeComponent();
             LoadPending();
         }
-        public void LoadComplaints()
-        {
-            if (SolvedButton.Checked == true)
-            {
+        public void LoadComplaints() {
+            if (SolvedButton.Checked == true) {
                 LoadSolved();
             }
-            else if (PendingButton.Checked == true)
-            {
+            else if (PendingButton.Checked == true) {
                 LoadPending();
             }
         }
@@ -60,18 +55,6 @@ namespace SocietyManagementSystem {
 
         private void guna2Button2_Click(object sender, EventArgs e) {
             gunaLabel2.Text = "Solved";
-            //for (int i = 0; i < 10; i++) {
-            //    Society.GetInstance().AddComplaint(
-            //        new Complaint() {
-            //            ComplainantName = "Abdullah" + i,
-            //            ComplainantEmail = $"computerinsider{i}@gmail.com",
-            //            Date = DateTime.Now,
-            //            Status = "Pending",
-            //            Name = "Water Problem",
-            //            Description = "Water is not clean there and timing is very bad"
-            //        }
-            //        );
-            //}
             LoadSolved();
 
         }
@@ -108,23 +91,51 @@ namespace SocietyManagementSystem {
             }
         }
 
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
+        private void guna2Button4_Click(object sender, EventArgs e) {
             new AddComplaintForm().Show();
             LoadComplaints();
         }
 
-        private void gunaLabel2_Click(object sender, EventArgs e)
-        {
+        private void gunaLabel2_Click(object sender, EventArgs e) {
 
         }
 
         private void guna2DataGridView1_RowStateChanged(object sender, DataGridViewRowStateChangedEventArgs e) {
-            
+
         }
 
         private void guna2DataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e) {
-            MessageBox.Show(guna2DataGridView1.CurrentCell.RowIndex.ToString());
+
+        }
+
+        private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e) {
+        }
+
+        private void guna2DataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e) {
+
+        }
+
+        private void ComplaintsForm_Enter(object sender, EventArgs e) {
+
+        }
+
+        private void ComplaintsForm_MouseEnter(object sender, EventArgs e) {
+
+        }
+
+        private void guna2DataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e) {
+            if (PendingButton.Checked == true)
+                x = new PopUpMenu(guna2DataGridView1.CurrentCell.RowIndex, true);
+            else
+                x = new PopUpMenu(guna2DataGridView1.CurrentCell.RowIndex, false);
+            x.Show();
+        }
+
+        private void guna2DataGridView1_Click(object sender, EventArgs e) {
+            if (x != null) {
+                x.Close();
+            }
+            LoadComplaints();
         }
     }
 }

@@ -92,3 +92,4 @@ F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Newto
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\bin\Debug\Newtonsoft.Json.xml
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.csprojAssemblyReference.cache
 F:\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.AddComplaintForm.resources
+C:\Users\Muhammad Abdullah\source\repos\CS162S21GID04\SocietyManagementSystem\SocietyManagementSystem\obj\Debug\SocietyManagementSystem.PopUpMenu.resources
