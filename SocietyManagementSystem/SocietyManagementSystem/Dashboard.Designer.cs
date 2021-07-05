@@ -25,10 +25,10 @@ namespace SocietyManagementSystem {
         /// </summary>
         private void InitializeComponent() {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -36,12 +36,12 @@ namespace SocietyManagementSystem {
             this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.chairmanName = new Guna.UI.WinForms.GunaLabel();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.totalAmount = new Guna.UI.WinForms.GunaLabel();
+            this.totalDonations = new Guna.UI.WinForms.GunaLabel();
             this.gunaElipse2 = new Guna.UI.WinForms.GunaElipse(this.components);
-            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.gunaImageButton1 = new Guna.UI.WinForms.GunaImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -94,70 +94,70 @@ namespace SocietyManagementSystem {
             this.guna2CirclePictureBox1.TabStop = false;
             this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
-            // gunaLabel2
+            // chairmanName
             // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.Location = new System.Drawing.Point(675, 27);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(135, 21);
-            this.gunaLabel2.TabIndex = 3;
-            this.gunaLabel2.Text = "Sameed Adeel";
-            this.gunaLabel2.Click += new System.EventHandler(this.gunaLabel2_Click);
+            this.chairmanName.AutoSize = true;
+            this.chairmanName.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chairmanName.Location = new System.Drawing.Point(675, 27);
+            this.chairmanName.Name = "chairmanName";
+            this.chairmanName.Size = new System.Drawing.Size(135, 21);
+            this.chairmanName.TabIndex = 3;
+            //this.chairmanName.Text = Society.Chairperson.Name;
+            this.chairmanName.Click += new System.EventHandler(this.gunaLabel2_Click);
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(68, 247);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Buildings";
-            this.chart1.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Buildings";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(550, 378);
             this.chart1.TabIndex = 4;
             this.chart1.Text = "chart1";
-            title2.Name = "Buildings";
-            this.chart1.Titles.Add(title2);
+            title1.Name = "Buildings";
+            this.chart1.Titles.Add(title1);
             // 
             // gunaElipsePanel1
             // 
             this.gunaElipsePanel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaElipsePanel1.BaseColor = System.Drawing.Color.MistyRose;
-            this.gunaElipsePanel1.Controls.Add(this.gunaLabel3);
-            this.gunaElipsePanel1.Controls.Add(this.gunaLabel4);
+            this.gunaElipsePanel1.Controls.Add(this.totalAmount);
+            this.gunaElipsePanel1.Controls.Add(this.totalDonations);
             this.gunaElipsePanel1.Location = new System.Drawing.Point(560, 94);
             this.gunaElipsePanel1.Name = "gunaElipsePanel1";
             this.gunaElipsePanel1.Radius = 20;
             this.gunaElipsePanel1.Size = new System.Drawing.Size(304, 178);
             this.gunaElipsePanel1.TabIndex = 5;
             // 
+            // totalAmount
+            // 
+            this.totalAmount.AutoSize = true;
+            this.totalAmount.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalAmount.Location = new System.Drawing.Point(38, 79);
+            this.totalAmount.Name = "totalAmount";
+            this.totalAmount.Size = new System.Drawing.Size(199, 21);
+            this.totalAmount.TabIndex = 1;
+            this.totalAmount.Text = "Total Amount: Rs.1,110,987";
+            // 
+            // totalDonations
+            // 
+            this.totalDonations.AutoSize = true;
+            this.totalDonations.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalDonations.Location = new System.Drawing.Point(37, 29);
+            this.totalDonations.Name = "totalDonations";
+            this.totalDonations.Size = new System.Drawing.Size(239, 26);
+            this.totalDonations.TabIndex = 0;
+            this.totalDonations.Text = "Total No. of Donations: 300";
+            // 
             // gunaElipse2
             // 
             this.gunaElipse2.TargetControl = this;
-            // 
-            // gunaLabel4
-            // 
-            this.gunaLabel4.AutoSize = true;
-            this.gunaLabel4.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel4.Location = new System.Drawing.Point(37, 29);
-            this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(239, 26);
-            this.gunaLabel4.TabIndex = 0;
-            this.gunaLabel4.Text = "Total No. of Donations: 300";
-            // 
-            // gunaLabel3
-            // 
-            this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel3.Location = new System.Drawing.Point(38, 79);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(199, 21);
-            this.gunaLabel3.TabIndex = 1;
-            this.gunaLabel3.Text = "Total Amount: Rs.1,110,987";
             // 
             // guna2ImageButton1
             // 
@@ -180,6 +180,7 @@ namespace SocietyManagementSystem {
             this.gunaImageButton1.OnHoverImageOffset = new System.Drawing.Point(0, 0);
             this.gunaImageButton1.Size = new System.Drawing.Size(32, 32);
             this.gunaImageButton1.TabIndex = 7;
+            this.gunaImageButton1.Click += new System.EventHandler(this.gunaImageButton1_Click);
             // 
             // Dashboard
             // 
@@ -190,7 +191,7 @@ namespace SocietyManagementSystem {
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.gunaElipsePanel1);
             this.Controls.Add(this.chart1);
-            this.Controls.Add(this.gunaLabel2);
+            this.Controls.Add(this.chairmanName);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.guna2CircleProgressBar1);
@@ -201,8 +202,7 @@ namespace SocietyManagementSystem {
             this.gunaElipsePanel1.ResumeLayout(false);
             this.gunaElipsePanel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
-
+            this.PerformLayout(); 
         }
 
         #endregion
@@ -212,12 +212,12 @@ namespace SocietyManagementSystem {
         private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI.WinForms.GunaLabel gunaLabel2;
+        private Guna.UI.WinForms.GunaLabel chairmanName;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel1;
         private Guna.UI.WinForms.GunaElipse gunaElipse2;
-        private Guna.UI.WinForms.GunaLabel gunaLabel4;
-        private Guna.UI.WinForms.GunaLabel gunaLabel3;
+        private Guna.UI.WinForms.GunaLabel totalDonations;
+        private Guna.UI.WinForms.GunaLabel totalAmount;
         private Guna.UI.WinForms.GunaImageButton gunaImageButton1;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
     }

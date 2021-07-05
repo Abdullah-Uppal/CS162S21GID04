@@ -1,29 +1,11 @@
 {
-  "Complaints": [
-    {
-      "Status": "Pending",
-      "Name": "Water Problem",
-      "Description": "Pani Anay janay ka koi sae time hi ni hai. jb marzi muh utha kr chla jata hai. fix it plz",
-      "Date": "2021-06-20T14:25:06",
-      "ComplainantName": "Abdullah Asif",
-      "ComplainantEmail": "computerinsider4@gmail.com"
-    }
-  ],
-  "Member": [
-    {
-      "Name": "Abdullah",
-      "PhoneNumber": "03009439389",
-      "Email": "computerinsider4@gmail.com",
-      "CNIC": "3520098765434"
-    },
-    {
-      "Age": 19,
-      "designation": "Carpenter",
-      "Address": "Chah Miran, Lahore",
-      "Name": "Asif",
-      "PhoneNumber": "03009439391",
-      "Email": "computerinsider4@gmail.com",
-      "CNIC": "3520053157047"
-    }
-  ]
+  "Chairperson": {
+    "Name": "Abdullah Asif",
+    "PhoneNumber": "03009439389",
+    "Email": "computerinsider4@gmail.com",
+    "CNIC": "3520053157037"
+  },
+  "Complaints": [],
+  "Member": [],
+  "Donate": []
 }

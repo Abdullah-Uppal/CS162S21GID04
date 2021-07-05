@@ -1,22 +1,35 @@
 {
-  "Complaints": [
-    {
-      "Status": "Solved",
-      "Name": "No Problem",
-      "Description": "What is your problem",
-      "Date": "2021-06-20T21:56:19",
-      "ComplainantName": "Sameed",
-      "ComplainantEmail": "sameed@gmail.com"
-    }
-  ],
+  "Chairperson": {
+    "Name": "Sameed Adeel",
+    "PhoneNumber": "03009439389",
+    "Email": "computerinsider4@gmail.com",
+    "CNIC": "3520053157037"
+  },
+  "Complaints": [],
   "Member": [],
   "Donate": [
     {
-      "Name": "Sameed",
-      "Email": "Sameed@gmail.com",
-      "PhoneNumber": "03124010502",
-      "Amount": 1000,
-      "CNIC": "35202541755003",
+      "Name": "Abdullah",
+      "Email": "computerinsider4@gmail.com",
+      "PhoneNumber": "03009439389",
+      "Amount": 20000,
+      "CNIC": "3520053157047",
+      "GenderType": "Male"
+    },
+    {
+      "Name": "Abdullah",
+      "Email": "computerinsider4@gmail.com",
+      "PhoneNumber": "03009439389",
+      "Amount": 20000,
+      "CNIC": "3520053157047",
+      "GenderType": "Male"
+    },
+    {
+      "Name": "Abdullah",
+      "Email": "computerinsider4@gmail.com",
+      "PhoneNumber": "03009439389",
+      "Amount": 20000,
+      "CNIC": "3520053157047",
       "GenderType": "Male"
     }
   ]

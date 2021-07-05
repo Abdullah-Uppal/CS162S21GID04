@@ -30,7 +30,6 @@ namespace SocietyManagementSystem {
             this.Disposed += (object sender, EventArgs e) => {
                 Society.GetInstance().SaveData();
             };
-            
 
         }
         private void guna2Button5_Click(object sender, EventArgs e) {

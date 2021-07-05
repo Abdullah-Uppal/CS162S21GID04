@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Bakery.cs" />
     <Compile Include="Building.cs" />
+    <Compile Include="Chairman.cs" />
     <Compile Include="Complaint.cs" />
     <Compile Include="ComplaintsForm.cs">
       <SubType>UserControl</SubType>

@@ -13,6 +13,9 @@ namespace SocietyManagementSystem {
     /// manages one society only.
     /// </summary>
     class Society {
+        public Chairman Chairperson {
+            get; set;
+        }
         [JsonIgnore]
         private static Society __instance = null;
         [JsonIgnore]
@@ -66,17 +69,14 @@ namespace SocietyManagementSystem {
                 return pending;
             }
         }
-        public List<Donation> SearchByCNIC(String cnic)
-        {
+        public List<Donation> SearchByCNIC(String cnic) {
             List<Donation> search = new List<Donation>();
-            foreach(var donation in donate)
-            {
-                if(donation.CNIC==cnic)
-                {
+            foreach (var donation in donate) {
+                if (donation.CNIC == cnic) {
                     search.Add(donation);
-              
+
                 }
-                
+
             }
             return search;
         }
@@ -84,64 +84,66 @@ namespace SocietyManagementSystem {
             complaints = new List<Complaint>();
             member = new List<Person>();
             donate = new List<Donation>();
+            Chairperson = new Chairman() {
+                Name = "Abdullah Asif",
+                CNIC = "3520053157037",
+                PhoneNumber = "03009439389",
+                Email = "computerinsider4@gmail.com"
+            };
         }
-        /// <summary>
-        /// To get the singleton instance of Society class.
-        /// </summary>
-        /// <returns></returns>
-        public static Society GetInstance() {
-            if (__instance == null) {
-                __instance = new Society();
-            }
-            return __instance;
+    /// <summary>
+    /// To get the singleton instance of Society class.
+    /// </summary>
+    /// <returns></returns>
+    public static Society GetInstance() {
+        if (__instance == null) {
+            __instance = new Society();
         }
-        public bool AddComplaint(Complaint c) {
-            complaints.Add(c);
-            return true;
+        return __instance;
+    }
+    public bool AddComplaint(Complaint c) {
+        complaints.Add(c);
+        return true;
+    }
+    public bool AddMember(Member m) {
+        member.Add(m);
+        return true;
+    }
+    public bool AddDonor(Donation d) {
+        donate.Add(d);
+        return true;
+    }
+    public List<Person> Member {
+        get {
+            return member;
         }
-        public bool AddMember(Member m) {
-            member.Add(m);
-            return true;
-        }
-        public bool AddDonor(Donation d)
-        {
-            donate.Add(d);
-            return true;
-        }
-        public List<Person> Member {
-            get {
-                return member;
-            }
-            set {
-                member = value;
-            }
-        }
-        public List<Donation> Donate
-        {
-            get
-            {
-                return donate;
-            }
-            set
-            {
-                donate = value;
-            }
+        set {
+            member = value;
         }
     }
-    class Loader {
+    public List<Donation> Donate {
+        get {
+            return donate;
+        }
+        set {
+            donate = value;
+        }
+    }
+}
+class Loader {
 
-        public static void LoadData() {
-            JsonSerializer j = new JsonSerializer() { Formatting = Formatting.Indented };
-            try {
-                using (var sw = new StreamReader("../../data.json")) {
-                    using (var reader = new JsonTextReader(sw)) {
-                        Society.SetInstance(j.Deserialize<Society>(reader));
-                    }
+    public static void LoadData() {
+        JsonSerializer j = new JsonSerializer() { Formatting = Formatting.Indented };
+        try {
+            using (var sw = new StreamReader("../../data.json")) {
+                using (var reader = new JsonTextReader(sw)) {
+                    Society.SetInstance(j.Deserialize<Society>(reader));
                 }
             }
-            catch {
+        }
+        catch {
 
-            }
         }
     }
+}
 }

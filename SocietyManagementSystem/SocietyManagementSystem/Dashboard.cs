@@ -27,6 +27,17 @@ namespace SocietyManagementSystem {
                 t.Abort();
             };
             
+            this.VisibleChanged += delegate (object sender, EventArgs e) {
+                string quote = "Total No. of Donations: " + Society.GetInstance().Donate.Count;
+                totalDonations.Text = quote;
+                string totalAmountQuote = "Total Amount: Rs.";
+                double totalDonation = 0;
+                Society.GetInstance().Donate.ForEach(x => {
+                    totalDonation += x.Amount;
+                });
+                totalAmount.Text = totalAmountQuote + totalDonation;
+                this.chairmanName.Text = Society.GetInstance().Chairperson.Name;
+            };
         }
         private static string GetCharge() {
             string perc = null;
@@ -49,6 +60,10 @@ namespace SocietyManagementSystem {
             chart1.Series["Buildings"].Points.AddXY("Hospitals", "10");
             chart1.Series["Buildings"].Points.AddXY("Schools", "25");
             chart1.Titles.Add("Buildings");
+        }
+
+        private void gunaImageButton1_Click(object sender, EventArgs e) {
+
         }
     }
 }
